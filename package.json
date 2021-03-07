@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "chat server for flutter app",
   "main": "app.js",
+  "repository": {
+    "directory": "",
+    "url": "",
+    "type": ""
+  },
   "scripts": {
     "start": "node app.js"
   },
