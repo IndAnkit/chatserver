@@ -3,12 +3,11 @@ const io = require("socket.io")(server);
 const Message = require("../model/message");
 const user = require("../model/user");
 
-console.log("Socket sayfası aktif");
+console.log("Socket From ChatServer");
 
 var connectedUsers = [];
 
 io.on("connection", (socket) => {
-  console.log("@@@@@@@@@@");
   socket.on("chatID", (data) => {
     let chatID = data.id;
 
